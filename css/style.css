@@ -55,7 +55,7 @@ body {
 .main-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -74,7 +74,7 @@ body {
 
 .main-button:hover,
 .main-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .info-header {
   font-weight: 500;
@@ -102,5 +102,10 @@ body {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.info-team-hero {
+  background-color: #ffffff;
 }
