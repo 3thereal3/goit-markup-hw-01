@@ -1,9 +1,40 @@
+/* Basic Styles */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+/* Header Styles */
+.header-top-line {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Logo Styles */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -16,6 +47,17 @@ body {
 
 .span-logo {
   color: #2e2f42;
+}
+
+/* Navigation Menu Styles */
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-list-item {
@@ -31,8 +73,14 @@ body {
   color: #404bbf;
 }
 
+/* Address Styles */
 .nav-address {
-  font-style: normal;
+  display: flex;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
