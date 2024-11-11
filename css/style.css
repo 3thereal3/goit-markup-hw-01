@@ -789,3 +789,7 @@ img {
 .modal-privacy-link {
   color: #4d5ae5;
 }
+
+button {
+  cursor: pointer;
+}
